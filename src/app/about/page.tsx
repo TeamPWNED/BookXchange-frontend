@@ -1,14 +1,12 @@
 import React from 'react'
-import { Button } from "@/components/ui/button"
-import Header from '@/components/header/Header'
+import {Header} from '@/components/Header/Header'
 import Footer from '@/components/footer/Footer'
 
 const About = () => {
     return (
         <>
             <Header />
-            About Us
-            <Button variant='outline' size='lg'>Click me</Button>
+           <div className='' style={{padding:'100px'}}>About Us</div>
             <Footer />
         </>
     )
