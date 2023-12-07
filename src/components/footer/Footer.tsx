@@ -50,7 +50,7 @@ const currentYear = new Date().getFullYear();
 
 export default function Footer() {
   return (
-    <footer className='p-5 bg-black text-white'>
+    <footer className='p-4 bg-black text-white z-10'>
       <Container>
 
         <div className="flex flex-row flex-wrap justify-between">
@@ -79,7 +79,7 @@ export default function Footer() {
               </p>
             </NextLink>
           </div>
-          <p className='text-xl'>&copy; Copyright {currentYear} BookXchange</p>
+          <p className='text-base md:text-1xl'>&copy; Copyright {currentYear} BookXchange</p>
         </div>
       </Container>
     </footer>

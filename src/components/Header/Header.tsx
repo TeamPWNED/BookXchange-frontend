@@ -28,8 +28,8 @@ export const Header = () => {
                 <div className="flex items-center ml-auto">
                     <Navbar />
                     <div className="flex gap-2">
-                        <Button variant='red'>Sign Up</Button>
-                        <Button variant='outline'>Sign In</Button>
+                        <Link href="/sign-up"> <Button variant='red'>Sign Up</Button></Link>
+                        <Link href="/sign-in"> <Button variant='outline'>Sign In</Button></Link>
                     </div>
                 </div>
             </div>

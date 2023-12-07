@@ -1550,6 +1550,7 @@ __metadata:
     nextjs-color-mode: ^1.0.5
     postcss: ^8
     react: ^18.2.0
+    react-animate-height: ^3.2.3
     react-dom: ^18.2.0
     react-hot-toast: ^2.4.1
     react-share: ^5.0.3
@@ -4917,6 +4918,16 @@ __metadata:
     react: "*"
     react-dom: "*"
   checksum: 488661f158de37ace5ed0d7543fe4ed19e0145cc59f3b842f9c1ff5dfda687240620ba59bb44ec9425c5703c8ac9683449b3012722ca7da5e0a585ce2104629b
+  languageName: node
+  linkType: hard
+
+"react-animate-height@npm:^3.2.3":
+  version: 3.2.3
+  resolution: "react-animate-height@npm:3.2.3"
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 2289dd7df284d6323a1d06adea112ec3e0d43025ee7029eeccee6dbb05d058fcd6cc4fc9907729ca83466db7d191f68008df409f59cd3e21582846b056b5c8ec
   languageName: node
   linkType: hard
 
