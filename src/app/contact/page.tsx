@@ -1,7 +1,8 @@
+import React from 'react'
 import { Header } from '@/components/Header/Header'
 import Height100 from '@/components/Header/Height100'
 import Footer from '@/components/footer/Footer'
-import React from 'react'
+import contactImage from "@/assets/contactImage.jpg"
 import "./contact.css"
 
 const Contact = () => {
@@ -10,7 +11,7 @@ const Contact = () => {
     <Header />
     <Height100 />
     <div className="home-contact">
-      <img src="../../assets/contactImg.jpg" alt=" photo" />
+      <img src={contactImage} alt=" photo" />
       <div className="contact-info">
         <h1> Contact Us</h1>
         <div className="contact-box">
