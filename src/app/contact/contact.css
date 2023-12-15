@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+.home-contact{
+    height:60vh;
+    display:flex;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    justify-content: space-evenly;
+    padding-top:100px;
+    
+}
+.home-contact h1{
+    font-size:2rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    
+
+}
+.contact-box{
+    display: flex;
+    gap:40px;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+    padding:10px;
+    align-items: center;
+    
+}
+.contact-box input{
+    border-bottom:1px solid black;
+    width:100%;
+    margin:10px 10px 5px 10px;
+    outline:none;
+    color:black;
+    padding:2px;
+    letter-spacing:1px;
+    background:transparent;
+}
+
+.contact-box button{
+    margin:10px;
+    color:white;
+    background-color:black;
+    letter-spacing:1px;
+    padding:8px 18px 8px 18px;
+    border-radius:8px;
+    margin-top:30px;
+    font-family: 'Cinzel', serif;
+}
+.content-right{
+    padding:10px;
+    margin:10px;
+    letter-spacing:1px;
+    text-align: center;
+}
+.content-right h1{
+    font-weight:200;
+    font-size:1.7em;
+    font-weight:bold;
+}
+.contact-icons{
+    display:flex;
+    gap:10px;
+    padding:12px 18px 8px 18px;
+}
+

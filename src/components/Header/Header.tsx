@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Navbar } from "@/components/navbar/Navbar";
 import { Button } from "@/components/ui/button";
-import Logo from '@/assets/logobook.png'
+import Logo from '@/assets/logobook.png';
 
 export const Header = () => {
     return (
