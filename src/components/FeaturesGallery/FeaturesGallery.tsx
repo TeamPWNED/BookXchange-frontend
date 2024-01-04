@@ -13,7 +13,7 @@ const TABS = [
   {
     title: 'Amazing Feature',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
+      '<p>At BookXchange, we take pride in our personalized recommendation system. Our advanced algorithms analyze your reading preferences and suggest books tailored just for you.</p>',
     imageUrl: HeroImage,
     baseColor: '249,82,120',
     secondColor: '221,9,57',
@@ -21,7 +21,7 @@ const TABS = [
   {
     title: 'Another amazing feature',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
+      '<p>At BookXchange, we prioritize affordability and sustainability. Our platform not only connects book lovers with affordable second-hand treasures but also promotes a greener approach to reading.</p>',
     imageUrl: Book,
     baseColor: '57,148,224',
     secondColor: '99,172,232',
@@ -29,7 +29,7 @@ const TABS = [
   {
     title: 'And yet... another truly fascinating feature',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
+      '<p>BookXchange stands out for its vibrant community engagement. Join our lively discussions, share your thoughts on your favorite books, and connect with fellow book enthusiasts.</p>',
     imageUrl: HeroImage,
     baseColor: '88,193,132',
     secondColor: '124,207,158',
