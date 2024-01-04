@@ -11,7 +11,7 @@ import Book from '@/assets/book.jpg';
 
 const TABS = [
   {
-    title: 'Amazinf Feature',
+    title: 'Amazing Feature',
     description:
       '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
     imageUrl: HeroImage,
