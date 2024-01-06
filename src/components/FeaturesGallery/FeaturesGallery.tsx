@@ -6,31 +6,32 @@ import Collapse from '@/components/Collapse/Collapse';
 import Container from '@/components/container/Container';
 import ThreeLayersCircle from './ThreeLayersCircle';
 import { media } from '@/utils/media';
-import HeroImage from '@/assets/heroImage.jpg';
-import Book from '@/assets/book.jpg';
+import Semantic from '@/assets/semantic.png';
+import Peer from '@/assets/peer.png';
+import Environment from '@/assets/environment.png'
 
 const TABS = [
   {
-    title: 'Amazing Feature',
+    title: 'Semantic Search Intelligence:',
     description:
-      '<p>At BookXchange, we take pride in our personalized recommendation system. Our advanced algorithms analyze your reading preferences and suggest books tailored just for you.</p>',
-    imageUrl: HeroImage,
+      "<p>Unleash the power of knowledge with our advanced vector search. BookMate's semantic search understands the context behind user queries, providing precise and relevant results. Say goodbye to tedious searches and discover academic materials tailored to your needs effortlessly.      </p>",
+    imageUrl: Semantic,
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
   {
-    title: 'Another amazing feature',
+    title: 'Exclusive Peer Community:',
     description:
-      '<p>At BookXchange, we prioritize affordability and sustainability. Our platform not only connects book lovers with affordable second-hand treasures but also promotes a greener approach to reading.</p>',
-    imageUrl: Book,
+      '<p>BookXchange goes beyond transactions, fostering an invite-only community of learners. Connect with peers who share your passion for knowledge. Experience peer-to-peer learning, support, and collaboration in a safe, respectful, and academically rich environment.</p>',
+    imageUrl: Peer,
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
   {
-    title: 'And yet... another truly fascinating feature',
+    title: 'Environmental Consciousness:',
     description:
-      '<p>BookXchange stands out for its vibrant community engagement. Join our lively discussions, share your thoughts on your favorite books, and connect with fellow book enthusiasts.</p>',
-    imageUrl: HeroImage,
+      '<p>Contribute to a greener planet. BookXchange champions sustainability by promoting the reuse of educational materials. Minimize waste, reduce your environmental footprint, and extend the lifecycle of academic books, all while saving costs and supporting a brighter future for education.</p>',
+    imageUrl: Environment,
     baseColor: '88,193,132',
     secondColor: '124,207,158',
   },
@@ -45,7 +46,7 @@ export default function FeaturesGallery() {
 
     return (
       <ImageContainer key={singleTab.title} $isactive={isActive}>
-        <Image src={singleTab.imageUrl} alt={singleTab.title}  priority={isFirst} fill objectFit='contain'/>
+        <Image src={singleTab.imageUrl} alt={singleTab.title}  priority={isFirst} fill objectFit='contain' style={{maxHeight:'500px',alignItems:'center',justifyContent:'center', marginTop:'40px'}}/>
       </ImageContainer>
     );
   });
@@ -93,6 +94,7 @@ const FeaturesGalleryWrapper = styled(Container)`
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  z-index:99;
 `;
 
 const GalleryWrapper = styled.div`
@@ -114,7 +116,7 @@ const Content = styled.div`
 
 const TabsContainer = styled.div`
   flex: 1;
-  margin-right: 2rem;
+  margin-right: 1rem;
 
   & > *:not(:first-child) {
     margin-top: 2rem;

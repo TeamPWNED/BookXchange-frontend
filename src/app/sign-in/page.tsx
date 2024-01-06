@@ -2,7 +2,9 @@
 import { Header } from '@/components/Header/Header'
 import Height100 from '@/components/Header/Height100'
 import Footer from '@/components/footer/Footer'
-import React from 'react'
+import { signIn } from '@/utils/auth';
+import { useRouter } from 'next/navigation';
+import React, { useState } from 'react'
 import styled from 'styled-components';
 
 const SignInContainer = styled.div`
@@ -50,9 +52,20 @@ const Button = styled.button`
 `;
 
 const SignIn = () => {
-  const handleSignIn = (e: any) => {
-    e.preventDefault();
-    // Add your sign-in logic here
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const navigate = useRouter();
+  const handleSignIn = async (e: any) => {
+    e.preventDefault()
+    try {
+      const { access, refresh } = await signIn(email, password);
+      localStorage.setItem('accessToken', access);
+      localStorage.setItem('refreshToken', refresh);
+      navigate.push('/store');
+    } catch (error) {
+      console.log(error);
+
+    }
   };
   return (
     <>
@@ -64,11 +77,13 @@ const SignIn = () => {
           <Input
             type="email"
             placeholder="Email Address"
+            value={email} onChange={(e) => setEmail(e.target.value)}
             required
           />
           <Input
             type="password"
             placeholder="Password"
+            value={password} onChange={(e) => setPassword(e.target.value)}
             required
           />
           <Button type="submit">Sign In</Button>
