@@ -25,7 +25,7 @@ export function Navbar() {
         <NavigationMenuItem>
           <Link href="/store" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              store
+              Store
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>

@@ -12,28 +12,29 @@ type FooterItems = SingleFooterList[];
 
 const footerItems: FooterItems = [
   {
-    title: 'BookXchange',
+    title: 'BOOKXCHANGE',
     items: [
       { title: 'Privacy Policy', href: '/privacy-policy' },
       { title: 'Cookies Policy', href: '/cookies-policy' },
     ],
   },
   {
-    title: 'Product',
+    title: 'CATEGORIES',
     items: [
-      { title: 'Features', href: '/features' },
-      { title: 'Something', href: '/something' },
-      { title: 'Something else', href: '/something-else' },
-      { title: 'And something else', href: '/and-something-else' },
+      { title: 'Educational', href: '#' },
+      { title: 'Preperations', href: '#' },
+      { title: 'Literature', href: '#' },
+      { title: 'Fiction', href: '#' },
+      { title: 'History', href: '#' },
     ],
   },
   {
-    title: 'Knowledge',
+    title: 'QUICK LINKS',
     items: [
-      { title: 'Blog', href: '/blog' },
+      { title: 'About', href: '/about' },
+      { title: 'Store', href: '/store' },
       { title: 'Contact', href: '/contact' },
-      { title: 'FAQ', href: '/faq' },
-      { title: 'Help Center', href: '/help-center' },
+      { title: 'Dashboard', href: '#' },
     ],
   },
   {
@@ -50,7 +51,7 @@ const currentYear = new Date().getFullYear();
 
 export default function Footer() {
   return (
-    <footer className='p-4 bg-black text-white z-10'>
+    <footer className='p-10 bg-black text-white z-10'>
       <Container>
 
         <div className="flex flex-row flex-wrap justify-between">
@@ -79,7 +80,7 @@ export default function Footer() {
               </p>
             </NextLink>
           </div>
-          <p className='text-base md:text-1xl'>&copy; Copyright {currentYear} BookXchange</p>
+          <p className='text-base md:text-1xl'>&copy; Copyright {currentYear} All Right Reserved.  </p>
         </div>
       </Container>
     </footer>

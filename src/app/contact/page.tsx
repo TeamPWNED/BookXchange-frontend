@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { Header } from '@/components/Header/Header'
 import Height100 from '@/components/Header/Height100'
@@ -13,7 +14,7 @@ const Contact = () => {
       <Header />
       <Height100 />
       <div className="home-contact">
-        <Image src={contactphoto} alt=" photo" width={400} />
+        <Image src={contactphoto} alt=" photo" width={400} style={{marginBottom:'50px'}}/>
         <div className="contact-info">
           <h1> Contact Us</h1>
           <div className="contact-box">
