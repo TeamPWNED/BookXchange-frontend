@@ -1,7 +1,7 @@
 'use client'
 import NextLink from 'next/link';
 import { Button } from '../ui/button';
-import HeroImage from '@/assets/heroImage.jpg';
+import HeroImage from '@/assets/heroImage.png';
 import Image from 'next/image';
 export default function Hero() {
 

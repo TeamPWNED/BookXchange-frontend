@@ -50,7 +50,7 @@ export const Header = () => {
   return (
     <header
       id="header"
-      className="header fixed left-0 w-full z-999 top-0 bg-white backdrop-filter backdrop-blur-md bg-opacity-50"
+      className="header fixed left-0 w-full z-999 top-0 bg-custom-bg backdrop-filter backdrop-blur-md bg-opacity-50"
     >
       <div className="header--container wrap wrap-px flex p-5">
         <div className="header-logo--container">

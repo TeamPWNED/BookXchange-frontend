@@ -7,6 +7,7 @@ import Height100 from '@/components/Header/Height100';
 import FeaturesGallery from '@/components/FeaturesGallery/FeaturesGallery';
 import Categories from '@/components/Categories/Categories';
 
+
 export default function Home() {
 
   return (

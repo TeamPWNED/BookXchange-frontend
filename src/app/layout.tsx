@@ -22,8 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
        <body
+      //  bg-background
         className={cn(
-          "min-h-screen bg-background font-sans antialiased flex-col",
+          "min-h-screen  font-sans antialiased flex-col bg-red",
           fontSans.variable
         )}
       >{children}

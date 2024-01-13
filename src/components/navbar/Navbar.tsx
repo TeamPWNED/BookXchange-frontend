@@ -13,11 +13,11 @@ import {
 
 export function Navbar() {
   return (
-    <NavigationMenu>
+    <NavigationMenu  >
       <NavigationMenuList>
-      <NavigationMenuItem>
+      <NavigationMenuItem   >
           <Link href="/about" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()} >
               About Us
             </NavigationMenuLink>
           </Link>
