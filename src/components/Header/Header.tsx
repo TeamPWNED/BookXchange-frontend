@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import Logo from "@/assets/logobook.png";
 import { useRouter } from "next/navigation";
 
+
 export const Header = () => {
   const navigate = useRouter();
 
@@ -50,7 +51,7 @@ export const Header = () => {
   return (
     <header
       id="header"
-      className="header fixed left-0 w-full z-999 top-0 bg-custom-bg backdrop-filter backdrop-blur-md bg-opacity-50"
+      className="header fixed left-0 w-full z-999 top-0 bg-custom-bg backdrop-filter backdrop-blur-md bg-opacity-50 "
     >
       <div className="header--container wrap wrap-px flex p-5">
         <div className="header-logo--container">
@@ -59,9 +60,9 @@ export const Header = () => {
           </Link>
         </div>
 
-        <div className="flex items-center ml-auto">
+        <div className="flex items-center ml-auto  font-bold">
           <Navbar />
-          <div className="flex gap-2">
+          <div className="flex gap-2 ">
             {isLoggedIn ? (
               <>
                 <p className="p-2">Hello, {userName}</p>

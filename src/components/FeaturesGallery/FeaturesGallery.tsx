@@ -76,7 +76,7 @@ export default function FeaturesGallery() {
   }
 
   return (
-    <FeaturesGalleryWrapper>
+    <FeaturesGalleryWrapper >
       <Content>
         <p className='text-base'>features</p>
         <h1 className='font-bold text-3xl'>What are you signing in for?</h1>
