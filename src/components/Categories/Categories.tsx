@@ -2,7 +2,7 @@ import React from 'react';
 import { categories } from '@/data/categories';
 import Image from 'next/image';
 import { Col, Row } from 'antd';
-import poetry from '@/assets/poetry.jpg'
+import poetry from '@/assets/poetry.png'
 const BaseUrl = '/assets/'
 const Categories: React.FC = () => {
   console.log();
