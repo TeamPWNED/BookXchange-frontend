@@ -1,37 +1,41 @@
+@font-face {
+    font-family: Nectar;
+    src: url(../fonts/Nectar\ Bold.otf);
+}
+
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
     transition:0.3s ease-in-out;
     scroll-behavior: smooth;
+    font-family:Nectar;
 }
-body{
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-    
-}
-.mainbgimg{
-    background-image:url('../assets/mainbgimg.jpg');
+
+
+.mainbgimg {
+    position: relative;
+    background-image: url('../assets/mainbgimg.jpg');
     background-attachment: fixed;
     background-position: center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    backdrop-filter: blur(5px);
-}
-.blurcolor{
-    background-color:rgba(0, 0, 0, 0.692);
-    color:white;
-    max-width:1600px;
-    margin:0 auto;
-    padding:20px;
+    background-repeat: no-repeat;
+    background-size: cover;
     backdrop-filter: blur(15px);
-   
+    
+    
+  }
+  
+  
+.blurcolor{
+    background-color:rgba(0, 0, 0, 0.856);
+    color:white;
+    backdrop-filter:blur(10px);
+    
 }
-.padding{
-    padding:20px;
-    backdrop-filter: blur(5px);
-}
+
+
 .herobanner{
-    max-width:1800px;
+    max-width:1600px;
     margin:0 auto;
     margin-top:30px;
 }

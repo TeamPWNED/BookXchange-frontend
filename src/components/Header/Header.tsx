@@ -6,7 +6,7 @@ import { Navbar } from "@/components/navbar/Navbar";
 import { Button } from "@/components/ui/button";
 import Logo from "@/assets/logobook.png";
 import { useRouter } from "next/navigation";
-
+import "./headerlogo.css"
 
 export const Header = () => {
   const navigate = useRouter();
@@ -51,12 +51,13 @@ export const Header = () => {
   return (
     <header
       id="header"
-      className="header fixed left-0 w-full z-999 top-0 bg-custom-bg backdrop-filter backdrop-blur-md bg-opacity-50 "
+      className="header sticky left-0 w-full z-999 top-0  backdrop-filter backdrop-blur-md bg-opacity-50 "
     >
       <div className="header--container wrap wrap-px flex p-5">
         <div className="header-logo--container">
           <Link href="/">
-            <Image src={Logo} alt="logo" height="120" width="100" priority />
+            {/* <Image src={Logo} alt="logo" height="120" width="100" priority /> */}
+            <p className="logohoni">BOOK<span className="size">X</span>CHANGE</p>
           </Link>
         </div>
 

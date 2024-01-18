@@ -8,7 +8,7 @@ const Categories: React.FC = () => {
   console.log();
 
   return (
-  <div className='flex align-center justify-center flex-col p-20'>
+  <div className='flex align-center justify-center flex-col p-20 backdrop-blur'>
             <h1 className='text-3xl font-bold text-center mb-10'>BOOK CATEGORIES</h1>
          <div className=' flex gap-10 justify-center flex-wrap'>
 

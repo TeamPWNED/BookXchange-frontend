@@ -12,15 +12,18 @@ export default function Home() {
 
   return (
     <>
-    <div className="mainbgimg">
+    <div className="mainbgimg justblur ">
       <Header />
       <Height100/>
       <HeroBanner />
-      <div className="padding">
+      <Height100/>
+      <hr />
+      <div className="herobanner">
       <Categories/>
-      </div>
+      
       <div className="blurcolor">
       <FeaturesGallery/>
+      </div>
       </div>
       <WaveContainer />
       <Footer />

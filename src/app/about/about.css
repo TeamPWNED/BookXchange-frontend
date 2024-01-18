@@ -1,4 +1,11 @@
+@font-face {
+    font-family: nectar;
+    src: url(../../fonts/Nectar\ Bold.otf);
+}
 
+*{
+    font-family:nectar;
+}
 .about{
     background-image:linear-gradient(0deg,rgb(0,0,0) 0%,rgba(255,255,255,0) 100%)
     
@@ -6,19 +13,56 @@
 }
 .abouthero{
     max-width:1600px;
-    margin:0 auto;
-    height:70vh;
-    font-family:nectar;
+    margin:40px auto;
+   padding:20px;
     font-weight:bold;
     display:flex;
     align-items: center;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content:space-between;
     text-align: justify;
+    gap:40px;
+    
    
     
 }
-
-.black{
-    color:black;
+.abouthero h1{ 
+    font-weight:bolder;
+    font-size:2.4rem;
 }
+.abouthero h2{ 
+    font-weight:bolder;
+    font-size:1.7rem;
+}
+.abouthero p{
+    font-size:1rem;
+}
+
+.intro{
+    width:100%;
+}
+.images{
+    display:flex;
+    gap:30px;
+    justify-content: space-around;
+    width:100%;
+
+
+}
+.character{
+    display:flex;
+    gap:20px;
+    text-align: center;
+    justify-content: center;
+}
+.character a{
+    display:flex;
+    gap:10px;
+    text-align: center;
+}
+.characterimage{
+    border-radius:50%;
+    cursor:pointer;
+    
+}
+
